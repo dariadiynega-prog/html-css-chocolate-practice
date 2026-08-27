@@ -1,0 +1,88 @@
+/*global styles*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+  background-color: #fafafa;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+
+.section {
+}
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.accent {
+  color: #fd9222;
+}
+
+/*base styles*/
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+/*socials styles*/
+.socials {
+}
+.socials-item {
+}
+.socials-link {
+}
+.socials-icon {
+}
+/*buttons styles*/
+.btn {
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+}
+.btn-filled {
+  color: #fff;
+  background: #fd9222;
+}
+.btn-filled:hover,
+.btn-filled:focus {
+  color: #fd9222;
+  background: rgba(253, 146, 34, 0.1);
+}
+.btn-outlined {
+}
+.primary {
+  color: #fff;
+}
+.primary:hover,
+.primary:focus {
+  color: #fd9222;
+}
+.secondary {
+  color: #111;
+}
+.secondary:hover,
+.secondary:focus {
+  color: #fff;
+  background: #fd9222;
+}
