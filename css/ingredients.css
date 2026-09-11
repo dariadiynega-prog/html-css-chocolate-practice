@@ -10,6 +10,7 @@
   gap: 32px;
 }
 .ingredients-item {
+  position: relative;
   width: calc((100% - 32px * 3) / 4);
   border-radius: 15px;
   padding: 28px 24px;
@@ -28,6 +29,24 @@
   background-color: #1e1823;
   color: #fff;
   margin-right: 0;
+}
+.ingredients-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.ingredients-item:nth-child(2n) .ingredients-icon {
+  color: #fd9222;
+}
+.ingredients-item:nth-child(2n + 1) .ingredients-icon {
+  color: #fafafa;
 }
 .ingredients-ill {
   margin-bottom: 36px;
