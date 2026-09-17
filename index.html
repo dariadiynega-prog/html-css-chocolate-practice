@@ -642,21 +642,19 @@
             </li>
           </ul>
           <form class="footer-form" name="subscription">
-            <label class="footer-form-field">
-              <input
-                class="footer-form-input"
-                type="email"
-                name="user_subscription"
-                placeholder="Enter your email"
-              />
-            </label>
+            <input
+              class="footer-form-input"
+              type="email"
+              name="user_subscription"
+              placeholder="Enter your email"
+            />
             <button class="btn btn-filled" type="submit">Subscribe</button>
           </form>
         </div>
       </div>
     </footer>
     <!-- Modal window -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-btn" type="button" aria-label="Close modal button">
           <svg class="modal-btn-icon" width="28" height="28">
@@ -715,13 +713,14 @@
             <label class="modal-form-label" for="user_comment">Comment</label>
             <textarea
               class="modal-form-comment"
+              cols="4"
               id="user_comment"
               name="user_comment"
               placeholder="Enter text"
             ></textarea>
           </div>
 
-          <div class="modal-form-field">
+          <div class="modal-form-agreement">
             <input type="checkbox" name="user_policy" id="user_policy" />
             <label class="modal-form-policy" for="user_policy">
               <span class="modal-form-checkbox">
